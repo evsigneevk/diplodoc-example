@@ -32,3 +32,10 @@ example:
   yaml:
     syntax: true
 ```
+
+```json
+{
+  "some": "json",
+  "examples": "true"
+}
+```
