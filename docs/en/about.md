@@ -7,7 +7,9 @@ Diplodoc provides you with unique name how this project can be reached on [https
 [https://common---gh-aje0e4eg9hffg001r5e5.viewer.diplodoc.com/en/](https://common---gh-aje0e4eg9hffg001r5e5.viewer.diplodoc.com/en/) 
 
 {% note info %}
+
 If you would like to extend your project - please refer to [YFM Project Organization guide](https://diplodoc.com/docs/en/project/)
+
 {% endnote %}
 
 All changes for this project can be done within you public github repository called "diplodoc-example/docs". 
