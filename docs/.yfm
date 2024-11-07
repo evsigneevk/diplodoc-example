@@ -1,3 +1,4 @@
+allowHTML: true
 langs: ['en']
 docs-viewer:
   project-name: evsigneev-docs
