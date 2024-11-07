@@ -11,13 +11,13 @@ jobs:
       - name: Install node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
       - name: Install diplodoc
         shell: bash
         run: npm i @diplodoc/cli highlight.js -g
       - name: Build
         shell: bash
-        run: yfm -i ./docs -o ./dist
+        run: yfm -i ./docs -o ./dist --output-format md --add-map-file --allow-custom-resources
       - name: Archive production artifacts
         uses: actions/upload-pages-artifact@v3
         with:
