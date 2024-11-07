@@ -1,5 +1,5 @@
 langs: ['en']
 docs-viewer:
   project-name: evsigneev-docs
-  langs: ['en']
+  langs: ['en','ru']
   github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main/docs
