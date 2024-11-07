@@ -2,6 +2,6 @@ allowHTML: true
 langs: ['en']
 supportGithubAnchors: true
 docs-viewer:
-  project-name: evsigneev-docs
+  project-name: test-docs
   langs: ['en','ru']
   github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main/docs

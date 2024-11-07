@@ -14,7 +14,7 @@ jobs:
           node-version: 20
       - name: Install diplodoc
         shell: bash
-        run: npm i @diplodoc/cli -g
+        run: npm i @diplodoc/cli highlight.js -g
       - name: Build
         shell: bash
         run: yfm -i ./docs -o ./dist
