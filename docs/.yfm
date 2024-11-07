@@ -1,7 +1,5 @@
 langs: ['en']
-connector:
-    type: github
-    github: 
-        endpoint: https://api.github.com
-        owner: yandex-cloud
-        repo: docs
+docs-viewer:
+  project-name: evsigneev-docs
+  langs: ['en']
+  github-url-prefix: https://github.com/evsigneevk/diplodoc-example/docs/blob/master
