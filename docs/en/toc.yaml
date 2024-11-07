@@ -11,3 +11,14 @@ items:
     include:
       path: sub-section/toc.yaml
       mode: link
+navigation:
+  header:
+    leftItems:
+      - text: "Telegram"
+        type: "link"
+        url: "https://t.me/utasksbot"
+      - text: "Github"
+        type: "link"
+        url: "https://github.com/evsigneevk/test-docs/"
+    rightItems:
+      - type: controls
