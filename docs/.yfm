@@ -2,4 +2,4 @@ langs: ['en']
 docs-viewer:
   project-name: evsigneev-docs
   langs: ['en']
-  github-url-prefix: https://github.com/evsigneevk/diplodoc-example/docs/blob/master
+  github-url-prefix: https://github.com/evsigneevk/diplodoc-example/tree/main/docs
