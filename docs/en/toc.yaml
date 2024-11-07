@@ -1,4 +1,4 @@
-title: Documentation Project Template
+title: Test Docs
 href: index.yaml
 items: 
   - name: About
@@ -13,8 +13,8 @@ items:
       mode: link
 navigation:
   logo:
-    url: "../en"
-    urlTitle: 'Вернуться на главную'
+    url: "../test-docs/en"
+    urlTitle: 'test docs'
     dark:
       icon: "https://storage.yandexcloud.net/diplodoc-www-assets/logo/ddos-logo-dark.svg"
     light:
