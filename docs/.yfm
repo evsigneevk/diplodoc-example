@@ -1,5 +1,6 @@
 allowHTML: true
 langs: ['en']
+supportGithubAnchors: true
 docs-viewer:
   project-name: evsigneev-docs
   langs: ['en','ru']
