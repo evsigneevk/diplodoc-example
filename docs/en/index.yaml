@@ -1,4 +1,7 @@
 title: Documentation
+meta:
+  title: Metadata
+  noIndex: true
 links:
   - title: About
     href: about.md
