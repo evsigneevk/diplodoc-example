@@ -15,9 +15,12 @@ jobs:
       - name: Install diplodoc
         shell: bash
         run: npm i @diplodoc/cli highlight.js -g
-      - name: Build
+      - name: Build md
         shell: bash
-        run: yfm -i ./docs -o ./dist --output-format md --add-map-file --allow-custom-resources
+        run: yfm -i ./docs -o ./dist_md --output-format md --add-map-file --allow-custom-resources
+      - name: Build html
+        shell: bash
+        run: yfm -i ./dist_md -o ./dist
       - name: Archive production artifacts
         uses: actions/upload-pages-artifact@v3
         with:
