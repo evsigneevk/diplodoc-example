@@ -3,9 +3,9 @@ meta:
   title: Metadata
   noIndex: true
 links:
-  - title: About
+  - title: Обзор
     href: about.md
-  - title: Diplodoc page on index page
+  - title: Первая страница на главной
     href: page.md
   - title: YFM Structure on index page
     href: anotherpage.md

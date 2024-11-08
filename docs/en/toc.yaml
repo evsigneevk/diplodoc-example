@@ -26,5 +26,5 @@ navigation:
       - text: "Github"
         type: "link"
         url: "https://github.com/evsigneevk/test-docs/"
-    # rightItems:
-    #   - type: controls
+    rightItems:
+      - type: controls
