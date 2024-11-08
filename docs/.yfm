@@ -1,7 +1,7 @@
 allowHTML: true
-langs: ['en']
+langs: ['en', 'ru']
 supportGithubAnchors: true
 docs-viewer:
   project-name: test-docs
-  langs: ['en']
-  github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main/docs/en
+  langs: ['en', 'ru']
+  github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main

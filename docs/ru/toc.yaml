@@ -1,0 +1,30 @@
+href: index.yaml
+items: 
+  - name: Обзор
+    href: about.md
+  - name: Очередная страница
+    href: page.md
+  - name: Другая страница 
+    href: anotherpage.md
+  - name: Sub-Section 
+    include:
+      path: sub-section/toc.yaml
+      mode: link
+navigation:
+  logo:
+    url: "../test-docs/ru"
+    urlTitle: 'теперь по русски'
+    dark:
+      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/logo/ddos-logo-dark.svg"
+    light:
+      icon: "https://storage.yandexcloud.net/diplodoc-www-assets/navigation/diplodoc-logo.svg"
+  header:
+    leftItems:
+      - text: "Telegram"
+        type: "link"
+        url: "https://t.me/utasksbot"
+      - text: "Github"
+        type: "link"
+        url: "https://github.com/evsigneevk/test-docs/"
+    # rightItems:
+    #   - type: controls
