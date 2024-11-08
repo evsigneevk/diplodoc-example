@@ -1,13 +1,7 @@
 allowHTML: true
 langs: ['en']
 supportGithubAnchors: true
-connector:
-  type: github
-  github: 
-    endpoint: https://api.github.com
-    owner: evsigneevk
-    repo: test-docs
 docs-viewer:
   project-name: test-docs
-  langs: ['en','ru']
-  github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main/docs
+  langs: ['en']
+  github-url-prefix: https://github.com/evsigneevk/test-docs/tree/main/docs/en
